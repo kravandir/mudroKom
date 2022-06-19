@@ -28,7 +28,7 @@ def get_tokens(filename = "tokens.mudr"):
         if word.startswith('//'):
             comments.append(word)
         elif word == "": 
-            comments.append(msg)
+            comments.append(word)
     for comment in comments:
         tokens.remove(comment)
     tokens = list(set(tokens)) # убираем повторы
@@ -73,8 +73,6 @@ def mydromet(tokens, wall, post, msgs):
                 message=msg
             )
             
-
-
 def main():
     print("\t---МУДРОКОМ---\ngithub.com/kravandir")
     msgs = get_msgs()
