@@ -1,5 +1,4 @@
 import vk_api
-from vk_api.longpoll import VkLongPoll, VkEventType
 
 def get_post(link): # инфа о посте
     link = link.split("wall")[1] # получаем айди стены и поста через _ (было vk.com/wall-162028149_588640 - стало 162028149_588640)
@@ -83,7 +82,7 @@ def main():
     if check == 'y':
         for token in tokens:
             checking(token)
-    post = input("Введите полную ссылку на пост: ")
+    post = input("Введите полную ссылку на пост(пример:https://vk.com/wall-162028149_588640): ")
     wall, post = get_post(post)
     #print("проверка :", wall, post, msgs) # в случае неисправности уберите хэштег где print и напишите vk.com/klm/andrey или же создайте issue на гитхабе приложив это
     print("Начинаем...")
