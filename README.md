@@ -10,6 +10,15 @@
 ## ВНИМАНИЕ!
 **Не добавляйте слишком много фраз и не запускайте скрипт много раз подряд! У вас будет ошибка о капче!**
 
+## Установка
+Если есть git:
+```bash
+git clone https://github.com/kravandir/mudroMet.git
+```
+Если нет то:
+
+[Нажми чтобы скачать](https://github.com/kravandir/mudroMet/archive/refs/heads/main.zip)
+
 ## Использование
 
 Заполните `msgs.mudr` и `tokens.mudr` (как их заполнять указано там же)
