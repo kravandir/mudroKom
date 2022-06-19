@@ -34,7 +34,7 @@ def get_tokens(filename = "tokens.mudr"):
     tokens = list(set(tokens)) # убираем повторы
     print(f"Количество токенов - {len(tokens)}")
     if len(tokens) <= 0:
-        print("Нету токенов! Добавьте их в tokens.islam и запустите программу снова")
+        print("Нету токенов! Добавьте их в tokens.mudr и запустите программу снова")
         exit(1)
     db.close()
     return tokens
