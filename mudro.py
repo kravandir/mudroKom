@@ -77,7 +77,6 @@ def main():
     print("\t---МУДРОКОМ---\ngithub.com/kravandir")
     msgs = get_msgs()
     tokens = get_tokens()
-    print(tokens)
     check = 'y'
     check = input("Запустить проверку токенов? (Y\\n): ").lower()
     if check == 'y':
