@@ -27,7 +27,8 @@ def get_tokens(filename = "tokens.mudr"):
     for word in tokens:             #убираем комментарии
         if word.startswith('//'):
             comments.append(word)
-        elif word == "": 
+        elif word == "" or word == '''
+''': 
             comments.append(word)
     for comment in comments:
         tokens.remove(comment)
