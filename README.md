@@ -13,11 +13,11 @@
 ## Установка
 Если есть git:
 ```bash
-git clone https://github.com/kravandir/mudroMet.git
+git clone https://github.com/kravandir/mudroKom.git
 ```
 Если нет то:
 
-[Нажми чтобы скачать](https://github.com/kravandir/mudroMet/archive/refs/heads/main.zip)
+[Нажми чтобы скачать](https://github.com/kravandir/mudroKom/archive/refs/heads/main.zip)
 
 ## Использование
 
